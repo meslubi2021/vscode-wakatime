@@ -1,6 +1,20 @@
 
 # Changelog
 
+## 24.6.0 (2024-06-09)
+
+- Prefer api_url when opening WakaTime dashboard.
+  [#389](https://github.com/wakatime/vscode-wakatime/pull/389)
+
+## 24.5.1 (2024-06-09)
+
+- Check trimmed api_key_vault_cmd before splitting.
+
+## 24.5.0 (2024-04-10)
+
+- Modify api_key_vault_cmd to match wakatime-cli.
+- Name status bar items.
+
 ## 24.4.0 (2023-11-02)
 
 - Rate limit checking for wakatime-cli updates, to avoid GitHub API quota.
